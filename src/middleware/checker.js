@@ -18,3 +18,4 @@ const checker = store => next => action => {
   return next(action);
   //next will be the next middleware in line or dispatch the action
 };
+export default checker;

@@ -1,4 +1,5 @@
 import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from "../actions/todos";
+import { RECEIVE_DATA } from "../actions/shared";
 //todos reducer
 
 export default function todos(state = [], action) {
